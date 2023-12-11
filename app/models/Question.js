@@ -8,7 +8,11 @@ export class Question {
 
   get QuestionCard(){
     return `
-    
+      <div class="col-4 mb-2">
+        <div class="card">
+          <h4>Question stuff</h4>
+        </div>
+      </div>
     `
   }
 }
