@@ -5,4 +5,10 @@ export class Question {
       this.category = data.category
       this.number = data.number
   }
+
+  get QuestionCard(){
+    return `
+    
+    `
+  }
 }

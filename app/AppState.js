@@ -6,7 +6,7 @@ class ObservableAppState extends EventEmitter {
 
   /**@type {Question[]} */
   questions = [
-    new Question({difficulty: 'Hard', type: 'Any Type', category: 'Mythology', number: 10})
+    // new Question({difficulty: 'Hard', type: 'Any Type', category: 'Mythology', number: 10})
   ]
 }
 
