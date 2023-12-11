@@ -11,7 +11,7 @@ function _drawQuestion() {
 
 export class QuestionController {
   constructor() {
-    _drawQuestion()
+    AppState.on('questions', _drawQuestion)
     console.log('The Q Controller has loaded')
     this.getQuestions()
   }
